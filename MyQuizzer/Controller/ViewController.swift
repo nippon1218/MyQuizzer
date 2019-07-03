@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let allQuestions = QuestionBank()
+    var pickedAnswer: Bool = false
+    var questionNumber: Int = 0
+    var score: Int = 0
+    
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var progressLabel: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
