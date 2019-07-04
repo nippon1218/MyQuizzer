@@ -154,7 +154,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="progressLabel" destination="aYN-fF-dqq" id="h2Z-aZ-ucE"/>
+                        <outlet property="progressLabel" destination="gef-xx-XcD" id="sRt-Nn-AE3"/>
+                        <outlet property="progressView" destination="aYN-fF-dqq" id="aXz-gZ-48L"/>
                         <outlet property="questionLabel" destination="0vF-iC-Mm3" id="Nxh-GR-qT3"/>
                         <outlet property="scoreLabel" destination="4vi-Np-2t4" id="yRF-Ax-VJ5"/>
                     </connections>
