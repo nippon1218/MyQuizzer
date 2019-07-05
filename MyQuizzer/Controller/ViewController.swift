@@ -32,18 +32,18 @@ class ViewController: UIViewController {
 
     
     func nextQuestion() {
-        if questionNumber <= 12 {
-            questionLabel.text = allQuestions.list[questionNumber].questionText
-            
-            updateUI()
-        }else {
-            let alert = UIAlertController(title: "了不起！", message: "你已经完成了所有的题目，是否想重新开始呢？", preferredStyle: .alert)
-            
-            let restartAction = UIAlertAction(title: "重新开始", style: .default, handler: { (alertAction) in self.startOver() })
-            
-            alert.addAction(restartAction)
-            present(alert, animated: true, completion: nil)
-        }
+//        if questionNumber <= 12 {
+//            questionLabel.text = allQuestions.list[questionNumber].questionText
+//
+//            updateUI()
+//        }else {
+//            let alert = UIAlertController(title: "了不起！", message: "你已经完成了所有的题目，是否想重新开始呢？", preferredStyle: .alert)
+//
+//            let restartAction = UIAlertAction(title: "重新开始", style: .default, handler: { (alertAction) in self.startOver() })
+//
+//            alert.addAction(restartAction)
+//            present(alert, animated: true, completion: nil)
+//        }
     }
     
     func updateUI() {
